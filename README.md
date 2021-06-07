@@ -17,6 +17,14 @@ This project is a very minimal Python setup. You are free to set
 it up locally in your own way (`virtualenv`, `venv`, `pyenv`, `poetry`, 
 Docker, etc.). 
 
+Here is an example:
+
+```
+python -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+```
+
 ### Database setup
 
 Setup your initial database (SQLite).
